@@ -19,7 +19,7 @@ I enjoy turning research ideas into working pipelines, especially when they invo
 ## Education
 
 - **Gachon University**, Department of AI  
-  Mar. 2021 - Present, GPA: 4.18 / 4.5
+  Mar. 2021 - Present, GPA: 4.2 / 4.5
 
 ## Experience
 
