@@ -24,7 +24,7 @@ I enjoy turning research ideas into working pipelines, especially when they invo
 ## Experience
 
 - **Lab Intern**, Natural Language Processing Lab (HLILap), Sungkyunkwan University  
-  Oct. 2025 - Aug. 2026
+  Oct. 2025 - Present
 - **Undergraduate Research Student**, Natural Language Processing Lab (IDALap), Gachon University  
   Jun. 2025 - Oct. 2025
 - **Undergraduate Research Student**, Natural Language Processing Lab (ISNLP), Gachon University  
