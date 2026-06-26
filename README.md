@@ -79,11 +79,16 @@ I enjoy turning research ideas into working pipelines, especially when they invo
 
 ## Awards & Honors
 
-- Excellence Award in Poster Presentation, SW Festival for **MUTON**, Gachon University, Jun. 2026
-- 2nd Place, SW Festival for **Momentrip**, Gachon University, Jul. 2025
-- Academic Excellence Scholarship, Gachon University, Jan. 2026
-- Academic Excellence Scholarship, Gachon University, Sep. 2025
-- Academic Excellence Scholarship, SW-Centered University at Gachon University, Sep. 2025
+- Excellence Award in the Poster Presentation, SW Festival for MUTON, School of AI and Software, Gachon University, Korea (Jun. 2026) 
+- Academic Excellence Scholarship,  Gachon University, Korea (Jan. 2026) 
+- Academic Excellence Scholarship,  Gachon University, Korea (Sep. 2025) 
+- Academic Excellence Scholarship, SW-Centered University at Gachon University, Korea (Sep. 2025) 
+- 2nd Place (ranking above graduation projects), SW Festival for Momentrip, School of AI and Software, Gachon University, Korea (Jul. 2025) 
+- Academic Excellence Scholarship, SW-Centered University at Gachon University, Korea (Sep. 2022) 
+- Learning Community, Gachon University, Korea (Jan. 2022) 
+- Academic Excellence Scholarship, SW-Centered University at Gachon University, Korea (Sep. 2021) 
+- Learning Community, Gachon University, Korea (Aug. 2021) 
+- Academic Excellence Scholarship, Gachon University, Korea (Aug. 2021)
 
 ## Certifications
 
@@ -98,6 +103,5 @@ I enjoy turning research ideas into working pipelines, especially when they invo
 
 ## Contact
 
-- Email: [jaesang02@gachon.ac.kr](mailto:jaesang02@gachon.ac.kr)
-- Personal email: [justinyun02@naver.com](mailto:justinyun02@naver.com)
+- Email: [jaesang1006@gmail.com](mailto:jaesang1006@gmail.com)
 - Portfolio: [Notion](https://www.notion.so/Yun-Jaesang-34f06d3e45248030bc58c68d8d9ca609?source=copy_link)
