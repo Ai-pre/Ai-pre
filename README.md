@@ -4,7 +4,6 @@ AI undergraduate student at **Gachon University**, interested in building and an
 
 I enjoy turning research ideas into working pipelines, especially when they involve model behavior analysis, safety alignment, Korean NLP, and multimodal interaction.
 
-[![GitHub](https://img.shields.io/badge/GitHub-ai--pre-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ai-pre)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Notion-000000?style=flat-square&logo=notion&logoColor=white)](https://www.notion.so/Yun-Jaesang-34f06d3e45248030bc58c68d8d9ca609?source=copy_link)
 [![Email](https://img.shields.io/badge/Email-jaesang02%40gachon.ac.kr-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:jaesang1006@gmail.com)
 
