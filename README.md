@@ -1,92 +1,104 @@
 # Hi, I'm JaeSang Yun
 
-AI undergraduate student at **Gachon University**, interested in building and analyzing intelligent systems around **large language models, multimodal AI, reasoning, and world models**.
+AI undergraduate researcher at **Gachon University**, interested in building reliable and human-centered AI systems around **multimodal AI, large language models, evaluation, reasoning, and agents**.
 
-I enjoy turning research ideas into working pipelines, especially when they involve model behavior analysis, safety alignment, Korean NLP, and multimodal interaction.
+I enjoy turning research questions into reproducible systems—from real-time omni-modal dialogue assistance and LLM-as-a-Judge evaluation to activation-guided prompt search and evidence-grounded AI agents.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Notion-000000?style=flat-square&logo=notion&logoColor=white)](https://www.notion.so/Yun-Jaesang-34f06d3e45248030bc58c68d8d9ca609?source=copy_link)
-[![Email](https://img.shields.io/badge/Email-jaesang02%40gachon.ac.kr-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:jaesang1006@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Notion-000000?style=flat-square&logo=notion&logoColor=white)](https://app.notion.com/p/Yun-Jaesang-34f06d3e45248030bc58c68d8d9ca609?source=copy_link)
+[![Email](https://img.shields.io/badge/Email-jaesang1006%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:jaesang1006@gmail.com)
 
 ## Research Interests
 
-- Large Language Models
-- Multimodal AI
-- Reasoning
-- World Models
-- LLM safety and value alignment
+- Multimodal and Omni-modal AI
+- Large Language Model Evaluation, Alignment, and Safety
+- Reasoning and Model Behavior Analysis
+- AI Agents and Retrieval-Augmented Generation
+- Reliable and Human-Centered AI
 
 ## Education
 
-- **Gachon University**, Department of AI  
+- **Gachon University**, Department of Artificial Intelligence  
   Mar. 2021 - Present, GPA: 4.2 / 4.5
 
 ## Experience
 
-- **Lab Intern**, Natural Language Processing Lab (HLILap), Sungkyunkwan University  
-  Oct. 2025 - Present
-- **Undergraduate Research Student**, Natural Language Processing Lab (IDALap), Gachon University  
-  Jun. 2025 - Oct. 2025
-- **Undergraduate Research Student**, Natural Language Processing Lab (ISNLP), Gachon University  
-  Mar. 2025 - Jun. 2025
+- **Lab Intern**, Human Intelligence Lab, Sungkyunkwan University  
+  Oct. 2025 - Present  
+  - Contributing to research on transferable system-prompt wording principles
+  - Benchmarking safety risks of LLMs aligned to specific human values
+
+- **Undergraduate Research Student**, Intelligent Data Analysis Lab, Gachon University  
+  Jul. 2025 - Oct. 2025  
+  - Constructed a Korean everyday-dialogue dataset for knowledge graph development
+  - Explored knowledge-graph augmentation for improving LLM reasoning
+
+- **Undergraduate Research Student**, Intelligent Software & Natural Language Processing Lab, Gachon University  
+  Mar. 2025 - Jul. 2025  
+  - Worked on sentence-order reasoning for the AI Malpyeong competition
+  - Developed Korean AI-generated text detection pipelines
 
 ## Tech Stack
 
 ### Languages
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
 ### AI / ML
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![Transformers](https://img.shields.io/badge/Transformers-111827?style=flat-square)
-![LoRA](https://img.shields.io/badge/LoRA-5B21B6?style=flat-square)
-![BERT](https://img.shields.io/badge/BERT-0F766E?style=flat-square)
-![R--GCN](https://img.shields.io/badge/R--GCN-2563EB?style=flat-square)
+![PEFT](https://img.shields.io/badge/PEFT%20%2F%20LoRA-5B21B6?style=flat-square)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![LightGBM](https://img.shields.io/badge/LightGBM-02569B?style=flat-square)
 
-### Models & Methods
+### LLM / Agent Systems
 
+![Qwen](https://img.shields.io/badge/Qwen-1D4ED8?style=flat-square)
 ![Llama](https://img.shields.io/badge/Llama-0467DF?style=flat-square)
 ![Gemma](https://img.shields.io/badge/Gemma-4285F4?style=flat-square)
 ![Mistral](https://img.shields.io/badge/Mistral-FF7000?style=flat-square)
-![Qwen](https://img.shields.io/badge/Qwen-1D4ED8?style=flat-square)
-![KoELECTRA](https://img.shields.io/badge/KoELECTRA-7C3AED?style=flat-square)
-![KoBigBird](https://img.shields.io/badge/KoBigBird-DB2777?style=flat-square)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG-0F766E?style=flat-square)
+![LLM Judge](https://img.shields.io/badge/LLM--as--a--Judge-7C3AED?style=flat-square)
 
-### Tools & Platforms
+### Backend & Platforms
 
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white)
 
-## Selected Projects
+## Main Projects
 
 | Project | What I Worked On | Keywords |
 | --- | --- | --- |
-| **Transferable System Prompt via Activation Signatures** | Built a pipeline for prompt evaluation, hidden-state extraction, and activation-based analysis on Llama and Gemma to study prompt transfer across GSM8K, CSQA, SVAMP, and BoolQ. | LLM analysis, activation signatures, prompt transfer |
-| **Value-Aligned LLM Safety Validation** | Reproduced a VIM / LoRA-based value alignment pipeline on Mistral-7B and benchmarked category-wise safety risks on BeaverTails and HEx-PHI. | LLM safety, alignment, LoRA |
-| **MUTON: Real-Time Multimodal Dialogue System** | Built a streaming multimodal dialogue system with facial affect recognition, PCM audio streaming, Transformer fusion/generation, and Qwen2.5-Omni LoRA fine-tuning. | Multimodal AI, dialogue, Qwen |
-| **Korean Dialogue KG Construction & Reasoning** | Developed an event/causal extraction pipeline, ATOMIC triple generation/translation, KG integration, R-GCN inference, and KG-enhanced LLM reasoning. | Korean NLP, knowledge graph, reasoning |
-| **Korean AI-Generated Text Detection System** | Implemented a machine-generated text detection pipeline using KoELECTRA and KoBigBird with chunk voting and logit averaging. | Korean NLP, text detection, transformers |
-| **Momentrip** | Developed a Jetpack Compose Android app for personalized travel recommendation and itinerary planning. | Android, recommendation, planning |
+| **[MUTON](https://github.com/Ai-pre/MUTON)** | Built a real-time omni-modal captioning system that combines speech, facial expressions, and text to communicate emotion, tone, intent, and conversational context for deaf and hard-of-hearing users. | Multimodal AI, Qwen2.5-Omni, LoRA, FastAPI, Android |
+| **Vpick Short-form Evaluation & Candidate Reranking** | Designed a blind LLM-as-a-Judge framework using scene descriptions, dialogue, and timestamps; constructed 94 long-form/short-form pairs and applied the evaluator to highlight candidate generation and reranking. | LLM-as-a-Judge, video understanding, evaluation, reranking |
+| **StockPilot** | Developed a conversational Korean stock research agent that integrates market prices, news, DART disclosures, and finance-term RAG while enforcing guardrails against direct investment recommendations. | AI agent, RAG, LangGraph, Supabase, finance |
+| **SCOUT: System-Prompt Candidate Ordering Using Hidden-State Traces** | Proposed activation-guided pre-screening for system-prompt search by predicting prompt performance from hidden-state signatures and validating held-out candidates across Qwen, Llama, and Gemma models. | LLM analysis, hidden states, prompt search, ridge regression |
+| **[Hybrid Anime Recommendation System](https://github.com/Ai-pre/Anime-recommendation-system)** | Combined SVD collaborative filtering and metadata-based content scores through a LightGBM meta-learner, with web demos and interactive recommendation visualizations. | Recommender systems, SVD, TF-IDF, LightGBM, Flask |
+| **[Momentrip](https://github.com/rhymer3431/Momentrip)** | Developed the backend and recommendation flow for a personalized travel-planning app using user preferences, TourAPI data, Kakao Map integration, and Jetpack Compose. | Android, Kotlin, recommendation, TourAPI, Kakao Map |
 
 ## Awards & Honors
 
-- Excellence Award in the Poster Presentation, SW Festival for MUTON, School of AI and Software, Gachon University, Korea (Jun. 2026) 
-- Academic Excellence Scholarship,  Gachon University, Korea (Jan. 2026) 
-- Academic Excellence Scholarship,  Gachon University, Korea (Sep. 2025) 
-- Academic Excellence Scholarship, SW-Centered University at Gachon University, Korea (Sep. 2025) 
-- 2nd Place (ranking above graduation projects), SW Festival for Momentrip, School of AI and Software, Gachon University, Korea (Jul. 2025) 
-- Academic Excellence Scholarship, SW-Centered University at Gachon University, Korea (Sep. 2022) 
-- Learning Community, Gachon University, Korea (Jan. 2022) 
-- Academic Excellence Scholarship, SW-Centered University at Gachon University, Korea (Sep. 2021) 
-- Learning Community, Gachon University, Korea (Aug. 2021) 
+- Excellence Award in the Poster Presentation, SW Festival for MUTON, School of AI and Software, Gachon University, Korea (Jun. 2026)
+- Academic Excellence Scholarship, Gachon University, Korea (Jan. 2026)
+- Academic Excellence Scholarship, Gachon University, Korea (Sep. 2025)
+- Academic Excellence Scholarship, SW-Centered University at Gachon University, Korea (Sep. 2025)
+- 2nd Place (ranking above graduation projects), SW Festival for Momentrip, School of AI and Software, Gachon University, Korea (Jul. 2025)
+- Academic Excellence Scholarship, SW-Centered University at Gachon University, Korea (Sep. 2022)
+- Learning Community, Gachon University, Korea (Jan. 2022)
+- Academic Excellence Scholarship, SW-Centered University at Gachon University, Korea (Sep. 2021)
+- Learning Community, Gachon University, Korea (Aug. 2021)
 - Academic Excellence Scholarship, Gachon University, Korea (Aug. 2021)
 
 ## Certifications
@@ -103,4 +115,4 @@ I enjoy turning research ideas into working pipelines, especially when they invo
 ## Contact
 
 - Email: [jaesang1006@gmail.com](mailto:jaesang1006@gmail.com)
-- Portfolio: [Notion](https://www.notion.so/Yun-Jaesang-34f06d3e45248030bc58c68d8d9ca609?source=copy_link)
+- Portfolio: [Notion](https://app.notion.com/p/Yun-Jaesang-34f06d3e45248030bc58c68d8d9ca609?source=copy_link)
