@@ -22,7 +22,7 @@ I enjoy turning research questions into reproducible systems—from real-time om
 
 ## Experience
 
-- **Lab Intern**, Human Intelligence Lab, Sungkyunkwan University  
+- **Undergraduate Research Student**, Human Intelligence Lab, Sungkyunkwan University  
   Oct. 2025 - Present  
   - Contributing to research on transferable system-prompt wording principles
   - Benchmarking safety risks of LLMs aligned to specific human values
