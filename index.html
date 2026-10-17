@@ -68,6 +68,45 @@ button,a{-webkit-tap-highlight-color:transparent}a{color:inherit;text-decoration
 .muton-preview-note{position:absolute;bottom:9px;right:13px;z-index:3;color:#ad9fc6;font:700 7px 'Space Grotesk';letter-spacing:.8px}
 @media(max-width:390px){.muton-phone{width:62%}.muton-feature-tag{font-size:7px;padding:5px}.muton-feature-a{left:2%}.muton-feature-b{right:2%}}
 
+/* Momentrip — illustrated itinerary and preference-based travel application */
+.momentrip-visual{background:radial-gradient(circle at 48% 36%,rgba(110,81,186,.22),transparent 57%),#11111e}
+.momentrip-ambient{position:absolute;left:50%;top:50%;width:380px;height:380px;border:1px solid rgba(182,151,239,.10);border-radius:50%;transform:translate(-50%,-50%) rotate(-20deg)}
+.mom-trip-orbit-b{width:510px;height:510px;border-style:dashed;opacity:.5}
+.momentrip-phone{position:absolute;top:68px;bottom:47px;left:50%;transform:translateX(-50%) rotate(-2deg);width:min(67%,288px);border:5px solid #34294b;border-bottom:0;border-radius:25px 25px 0 0;background:#f8f6fc;color:#30233f;box-shadow:0 28px 60px rgba(0,0,0,.4),0 0 0 1px rgba(210,180,255,.13);padding:10px 12px;overflow:hidden}
+.momentrip-status{display:flex;justify-content:space-between;align-items:center;padding:0 4px 9px;color:#554468;font:700 9px 'Space Grotesk'}
+.momentrip-app-head{display:flex;justify-content:space-between;align-items:center;margin:4px 0 12px}
+.momentrip-app-head div{display:flex;flex-direction:column;gap:3px}
+.momentrip-app-head small{color:#a29aaa;font:700 7px 'Space Grotesk';letter-spacing:1px}
+.momentrip-app-head strong{font:700 18px 'Space Grotesk';letter-spacing:-.6px}
+.momentrip-app-head strong span{color:#8f6cda}
+.momentrip-avatar{width:29px;height:29px;border-radius:50%;display:grid;place-items:center;background:#e4dbf2;border:1px solid #d2bfec;font:700 12px 'Space Grotesk';color:#7259ab}
+.momentrip-trip-heading{display:flex;flex-direction:column;gap:4px;margin-bottom:10px}
+.momentrip-trip-heading small{font:600 9px 'Noto Sans KR';color:#7d6b91}
+.momentrip-trip-heading strong{font:700 16px 'Noto Sans KR';letter-spacing:-.5px}
+.momentrip-trip-heading span{font:500 8px 'Noto Sans KR';color:#8c809a}
+.momentrip-map{height:132px;overflow:hidden;position:relative;border-radius:10px;background:linear-gradient(150deg,#e4e9e3 20%,#cadfd5 45%,#dfe7dc 46%,#ebeade 80%);border:1px solid #d7dfd3}
+.momentrip-map svg{position:absolute;inset:4px 5px;width:calc(100% - 10px);height:calc(100% - 8px);z-index:2}
+.momentrip-map-street{height:9px;position:absolute;left:-10%;width:130%;background:rgba(255,255,255,.85);border:1px solid rgba(181,188,178,.18);transform-origin:center}
+.momentrip-map-street.street-a{top:27%;transform:rotate(18deg)}
+.momentrip-map-street.street-b{top:64%;transform:rotate(-20deg)}
+.momentrip-map-street.street-c{top:48%;transform:rotate(65deg)}
+.momentrip-map-street.street-d{top:90%;transform:rotate(-60deg)}
+.momentrip-map-tag{position:absolute;z-index:3;background:white;border-radius:5px;padding:3px 5px;color:#564c65;box-shadow:0 2px 7px rgba(41,47,39,.12);font:700 7px 'Noto Sans KR'}
+.momentrip-map-tag.tag-a{left:7%;bottom:5%}.momentrip-map-tag.tag-b{left:50%;top:53%}.momentrip-map-tag.tag-c{right:7%;top:7%}
+.momentrip-list-header{display:flex;justify-content:space-between;align-items:center;margin:12px 2px 8px}
+.momentrip-list-header strong{font:700 11px 'Noto Sans KR'}
+.momentrip-list-header small{font:700 8px 'Space Grotesk';color:#8d6ed0}
+.momentrip-place{display:flex;align-items:center;gap:9px;border:1px solid #e9e2ef;border-radius:8px;padding:8px;background:#fff;margin:5px 0;min-height:43px}
+.momentrip-place-icon{width:30px;height:30px;border-radius:7px;display:grid;place-items:center;background:#e4f2e9;color:#4f9877;font-size:15px}
+.momentrip-place-icon.alt{background:#f5e9d9;color:#ac8654}
+.momentrip-place div{display:flex;flex-direction:column;gap:3px;flex:1}
+.momentrip-place div strong{font:700 10px 'Noto Sans KR'}
+.momentrip-place div small{font:500 8px 'Noto Sans KR';color:#857b8e}
+.momentrip-place>b{font:700 13px 'Space Grotesk';color:#9c7fd4}
+.momentrip-side-tag{position:absolute;z-index:3;border:1px solid rgba(182,151,239,.4);background:#302443;color:#dbc9fc;border-radius:7px;padding:8px;font:700 9px 'Space Grotesk';letter-spacing:1px;box-shadow:0 8px 18px rgba(0,0,0,.25)}
+.mom-tag-left{left:3%;top:38%}.mom-tag-right{right:3%;top:62%}
+@media(max-width:640px){.momentrip-phone{width:min(70%,285px);top:58px;bottom:39px;padding:8px 10px}.mom-tag-left{left:2%}.mom-tag-right{right:2%}.momentrip-side-tag{padding:5px;font-size:7px}.momentrip-map{height:105px}.momentrip-trip-heading{margin-bottom:6px}.momentrip-place{padding:5px}.momentrip-visual .visual-watermark{font-size:7px}}
+
 </style>
   <script defer>
 document.addEventListener('DOMContentLoaded', () => {
@@ -192,11 +231,12 @@ document.addEventListener('DOMContentLoaded', () => {
     <section class="ticker-band" aria-label="Areas of expertise"><div class="ticker-track"><span>AGENT ORCHESTRATION</span><b>✳</b><span>TOOL CALLING</span><b>✳</b><span>LLM RESEARCH</span><b>✳</b><span>MULTIMODAL AI</span><b>✳</b><span>RAG SYSTEMS</span><b>✳</b><span>AGENT ORCHESTRATION</span><b>✳</b><span>TOOL CALLING</span><b>✳</b><span>LLM RESEARCH</span><b>✳</b><span>MULTIMODAL AI</span><b>✳</b><span>RAG SYSTEMS</span><b>✳</b></div></section>
 
     <section id="projects" class="section container projects-section">
-      <div class="section-heading reveal"><div><div class="section-index"><span>01 /</span> SELECTED WORK</div><h2>Built to <em>work.</em></h2><p>기술 스택보다, 어떤 문제를 발견하고 어떤 선택을 했는지가 드러나는 프로젝트들입니다.</p></div><div class="section-counter">FEATURED PROJECTS <span>03</span></div></div>
+      <div class="section-heading reveal"><div><div class="section-index"><span>01 /</span> PROJECTS</div><h2>Projects<em>.</em></h2><p>기술 스택보다, 어떤 문제를 발견하고 어떤 선택을 했는지가 드러나는 프로젝트들입니다.</p></div><div class="section-counter">PROJECTS <span>04</span></div></div>
       <div class="filter-bar reveal" aria-label="Project filters">
-        <button class="filter active" data-filter="all" aria-pressed="true">All work <span>06</span></button>
+        <button class="filter active" data-filter="all" aria-pressed="true">All projects <span>07</span></button>
         <button class="filter" data-filter="agents" aria-pressed="false">Agent systems <span>02</span></button>
         <button class="filter" data-filter="judge" aria-pressed="false">LLM-as-a-Judge <span>01</span></button>
+        <button class="filter" data-filter="apps" aria-pressed="false">App development <span>01</span></button>
         <button class="filter" data-filter="models" aria-pressed="false">Model research <span>03</span></button>
       </div>
       <div class="project-list">
@@ -224,6 +264,30 @@ document.addEventListener('DOMContentLoaded', () => {
         <article class="project-card featured stock-card reveal" data-category="agents" data-project="stockpilot">
           <div class="project-visual stock-visual"><div class="visual-topline"><span class="visual-brand">◈ STOCKPILOT</span><span class="visual-tag">WORKFLOW ILLUSTRATION</span></div><div class="chat-window"><div class="chat-header"><div class="chat-avatar">S</div><div><strong>StockPilot</strong><span><i></i> Solar agent online</span></div><span class="chat-actions">•••</span></div><div class="chat-bubble user-bubble">삼성전자 요즘 어때?</div><div class="tool-status"><span>⌕</span> Fetching market data <b>✓</b></div><div class="tool-status"><span>⤴</span> Checking news & filings <b>✓</b></div><div class="chat-bubble bot-bubble">최근 시세와 공시를 확인했어요.<br/><span>근거를 바탕으로 흐름을 정리할게요.</span><div class="source-tags"><em>KRX</em><em>Naver News</em><em>OpenDART</em></div></div></div><div class="visual-watermark">03 / TOOL ORCHESTRATION</div></div>
           <div class="project-info"><div class="project-topline"><span class="project-number">03 / AGENT ENGINEERING</span></div><h3>StockPilot <span class="small-arrow">↗</span></h3><p class="project-sub">Conversational financial research agent</p><p class="project-description">Solar + LangGraph 기반 ReAct Agent를 구현해 시세·뉴스·공시·용어 검색 도구를 연결했습니다. 멀티턴 대화와 사용자 질문의 잘못된 전제 확인부터 FastAPI/SSE와 Docker 배포까지 개발했습니다.</p><div class="detail-points"><div><b>MY FOCUS</b><span>Tool routing · Multi-turn context · API & deployment</span></div></div><div class="tech-pills"><span>Solar Pro 3</span><span>LangGraph</span><span>ReAct</span><span>RAG</span><span>FastAPI</span></div><div class="project-links"><a href="https://github.com/Ai-pre/StockPilot" target="_blank" rel="noreferrer">Source code ↗</a><a href="https://app.notion.com/p/39f06d3e452480999cf0c12bd245a112" target="_blank" rel="noreferrer">Project details ↗</a></div></div>
+        </article>
+
+        <article class="project-card featured momentrip-card reveal" data-category="apps" data-project="momentrip">
+          <div class="project-visual momentrip-visual" role="img" aria-label="Momentrip 여행 일정 및 장소 추천 앱 화면을 재구성한 일러스트">
+            <div class="visual-topline"><span class="visual-brand">✦ MOMENTRIP</span><span class="visual-tag">APP PREVIEW · ILLUSTRATION</span></div>
+            <div class="momentrip-ambient mom-trip-orbit-a"></div><div class="momentrip-ambient mom-trip-orbit-b"></div>
+            <div class="momentrip-phone">
+              <div class="momentrip-status"><b>9:41</b><span>●●● ◕</span></div>
+              <div class="momentrip-app-head"><div><small>YOUR TRAVEL COMPANION</small><strong>Momentrip<span> ✦</span></strong></div><span class="momentrip-avatar">J</span></div>
+              <div class="momentrip-trip-heading"><small>나에게 맞는 여행</small><strong>제주에서의 3일 🌿</strong><span>취향에 맞는 여행지를 모았어요</span></div>
+              <div class="momentrip-map">
+                <div class="momentrip-map-street street-a"></div><div class="momentrip-map-street street-b"></div>
+                <div class="momentrip-map-street street-c"></div><div class="momentrip-map-street street-d"></div>
+                <svg viewBox="0 0 280 122" aria-hidden="true"><path d="M35 95 Q92 80 102 57 T170 62 T241 25" fill="none" stroke="#8360c6" stroke-width="4" stroke-linecap="round" stroke-dasharray="7 6"/><circle cx="35" cy="95" r="9" fill="#7453bb" stroke="#fff" stroke-width="3"/><circle cx="169" cy="62" r="9" fill="#7453bb" stroke="#fff" stroke-width="3"/><circle cx="241" cy="25" r="9" fill="#7453bb" stroke="#fff" stroke-width="3"/></svg>
+                <span class="momentrip-map-tag tag-a">협재</span><span class="momentrip-map-tag tag-b">애월</span><span class="momentrip-map-tag tag-c">한림</span>
+              </div>
+              <div class="momentrip-list-header"><strong>추천 장소</strong><small>AI PICKS</small></div>
+              <div class="momentrip-place"><span class="momentrip-place-icon">✿</span><div><strong>협재해수욕장</strong><small>자연 · 바다 · 휴식</small></div><b>↗</b></div>
+              <div class="momentrip-place"><span class="momentrip-place-icon alt">⌂</span><div><strong>애월 카페 거리</strong><small>산책 · 음식 · 감성</small></div><b>↗</b></div>
+            </div>
+            <span class="momentrip-side-tag mom-tag-left">WORD2VEC</span><span class="momentrip-side-tag mom-tag-right">TOUR API</span>
+            <div class="visual-watermark">04 / PERSONALIZED TRAVEL APP</div>
+          </div>
+          <div class="project-info"><div class="project-topline"><span class="project-number">04 / APP DEVELOPMENT</span><span class="award-mini">✧ SW Festival · 2위</span></div><h3>Momentrip <span class="small-arrow">↗</span></h3><p class="project-sub">Personalized travel planning application</p><p class="project-description">사용자 취향에 맞는 여행지·관광지·음식점·숙소를 추천하고, 일정과 지도를 함께 관리하는 Android 여행 플래너입니다. 백엔드 담당으로 선호도 벡터와 Word2Vec·코사인 유사도 기반 추천 로직, 한국관광공사 TourAPI 데이터 연동을 개발했습니다.</p><div class="detail-points"><div><b>MY FOCUS</b><span>Preference modeling · Recommendation ranking · TourAPI integration</span></div><div><b>AWARD</b><span>2025 제16회 SW Festival · 2위 (팀 프로젝트)</span></div></div><div class="tech-pills"><span>Kotlin</span><span>Word2Vec</span><span>TensorFlow Lite</span><span>TourAPI</span><span>Jetpack Compose</span></div><div class="project-links"><a href="https://github.com/rhymer3431/Momentrip" target="_blank" rel="noreferrer">Source code ↗</a></div></div>
         </article>
       </div>
       <p class="result-footnote">* Vpick의 Core@5는 실제 조회수 예측 정확도가 아닌, 추천 구간과 공개 숏폼의 핵심 구간이 일치하는지 측정한 지표입니다. 17개 롱폼·18개 정답 쌍의 개발 표본 결과이며 새로운 영상에 대한 일반화 성능은 아닙니다.</p>
